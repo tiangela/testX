@@ -1,0 +1,17 @@
+.clearfix() {
+  &::after {
+    content: "";
+
+    display: table;
+    clear: both;
+  }
+}
+
+ .container() {
+  width: 577px;
+  margin: 0 auto;
+
+  @media @tablet-widths {
+  //  width: 698px;
+  }
+}
